@@ -6,30 +6,30 @@ Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFil
 Set-TaskbarSmall
 
 # Console
-cinst powershell.portable
-cinst poshgit
-cinst microsoft-windows-terminal
+choco install powershell.portable
+choco install poshgit
+choco install microsoft-windows-terminal
 
 #####################
 # SOFTWARE
 #####################
 
 # Some browsers
-cinst GoogleChrome -y
-cinst firefox -y
-cinst microsoft-edge -y
+choco install GoogleChrome -y
+choco install firefox -y
+choco install microsoft-edge -y
 
 #Plugins and Runtime
-cinst javaruntime -y
+choco install javaruntime -y
 
 # Dev Tools
-cinst git.install -y
-cinst git-fork -y
-cinst cascadiacode -y
-cinst vscode -y
-cinst postman -y
-cinst fiddler -y
-cinst azure-cli -y
+choco install git.install -y
+choco install git-fork -y
+choco install cascadiacode -y
+choco install vscode -y
+choco install postman -y
+choco install fiddler -y
+choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
 choco install servicebusexplorer -y
 choco install ssms -y
@@ -45,7 +45,7 @@ choco install visualstudio2019-workload-node --cacheLocation="c:\temp"
 choco install visualstudio2019-workload-visualstudioextension --cacheLocation="c:\temp"
 
 # Tools
-cinst powertoys -y
+choco install powertoys -y
 
 # SQL Server - do this early to avoid issues with newer versions of VC++ 2015 redist
 choco install sql-server-2019  --cacheLocation="c:\temp"
