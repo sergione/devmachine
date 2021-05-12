@@ -33,6 +33,7 @@ choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
 choco install servicebusexplorer -y
 choco install ssms -y
+choco install azure-cli -y
 
 New-Item -Path "c:\temp" -ItemType directory -Force | Out-Null
 
