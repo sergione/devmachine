@@ -33,8 +33,6 @@ choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
 choco install servicebusexplorer -y
 choco install ssms -y
-choco install azure-cli -y
-
 New-Item -Path "c:\temp" -ItemType directory -Force | Out-Null
 
 # Visual Studio 2019
@@ -57,3 +55,9 @@ choco install sql-server-management-studio  --cacheLocation="c:\temp"
 choco install nodejs-lts -y
 choco install python2 -y
 choco install visualstudio2017-workload-vctools -y
+
+# Extras
+choco install notepadplusplus
+choco install adobe-creative-cloud
+
+# Custom packages
