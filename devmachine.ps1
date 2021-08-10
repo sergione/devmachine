@@ -26,7 +26,7 @@ choco install javaruntime -y
 choco install git.install -y
 choco install git-fork -y
 choco install cascadiacode -y
-choco install vscode -y
+#choco install vscode -y
 choco install postman -y
 choco install fiddler -y
 choco install azure-cli -y
@@ -54,6 +54,6 @@ choco install sql-server-2019-cumulative-update  --cacheLocation="c:\temp"
 choco install sql-server-management-studio  --cacheLocation="c:\temp"
 
 # Node
-choco install nodejs-lts -y
-choco install python2 -y
-choco install visualstudio2017-workload-vctools -y
+# choco install nodejs-lts -y
+# choco install python2 -y
+# choco install visualstudio2017-workload-vctools -y
